@@ -108,33 +108,33 @@ color: #151414;
 }
 .contact{
     margin: 0 auto;
-
-    /* prblm solve korte hobe */
-    background-image: url("images/watch.png") ;
-    background-image:  url("images/gradient1.png");
-    background-position: center , center;
-
-
     width:1140px;
     height: 301px;
     text-align: left;
     margin-bottom: 120px;
+    background-repeat: no-repeat, repeat;
+    background-image: url("images/watch.png"), url("images/gradient2.png");
+    background-blend-mode: lighten;   
 }
 .contact h2{
-    padding-left: 50px;
-    padding-top: 120px;
+    padding-left: 80px;
+    padding-top: 100px;
     margin-bottom: 20px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
 }
 .contact .btn{
     font-family: 'Work Sans';
     font-weight: 600;
     font-size: 20px;
-    color: #FFFFFF;
-    background-color:brown;
+    color:rgb(134, 79, 79);
+    background-color:#FFFFFF;
     padding: 8px;
     border-radius: 5px;
     border:none;
-    margin-left: 50px;
+    margin-left: 80px;
 }
 
 /* prblm solve korte hobe uporer ongso */
