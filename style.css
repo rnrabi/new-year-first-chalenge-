@@ -1,0 +1,129 @@
+*{
+    margin:0 auto;
+    padding:0px;
+}
+
+.banner{
+    background-image: url("images/banner/banner2.png");
+    text-align: right;
+    height:809px;
+    background-size: cover;
+  
+}
+.banner-topics{
+    width: 450px;
+    padding-top: 250px;
+    margin-right: 197px;
+}
+.banner h2{
+    color:black;
+    font-family: 'Work Sans';
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.banner p{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 15px;
+}
+
+.banner .btn{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color:brown;
+    padding: 8px;
+    border-radius: 5px;
+    border:none;
+}
+.main-section{
+    display: flex;
+}
+.section-content{
+    width:400px;
+    padding-top:350px;
+}
+.section-content h2{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;     
+    color: #151414;
+    margin-bottom: 15px;
+}
+.section-content p{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 15px;
+}
+.section-content li{
+    list-style-type: none;
+    margin-bottom: 15px;
+  
+}
+
+/* our planing section */
+
+.section2{
+    text-align:center;
+    margin:120px 0;
+}
+.section2 > h2{
+    margin-bottom: 40px;
+}
+.clm-container{
+    display: flex;
+}
+
+/* contace section  */
+
+.contact{
+    margin: 0 auto;
+
+    /* prblm solve korte hobe */
+    background-image: url("images/watch.png") ;
+    background-image:  url("images/gradient1.png");
+    background-position: center , center;
+
+
+    width:1140px;
+    height: 301px;
+    text-align: left;
+    margin-bottom: 120px;
+}
+.contact h2{
+    padding-left: 50px;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+.contact .btn{
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color:brown;
+    padding: 8px;
+    border-radius: 5px;
+    border:none;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
