@@ -106,6 +106,54 @@ color: #151414;
     text-align: center;
     color: #737272;
 }
+
+/* My section */
+.my-section{
+    width: 1600px;
+    height: 250px;
+    background-image: url(images/strat2.jpg);
+    background-size: cover;
+    margin-bottom: 50px;
+    text-align:center;
+   
+}
+.my-section h2{
+    padding-top: 79px;
+    font-family: cursive;
+    font-size: 37px;
+    font-weight: 500;
+    color: antiquewhite;
+    margin-bottom: 10px;
+}
+.my-section input[type="email"]{
+    width: 230px;
+    height: 40px;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 18px;
+    padding-left: 26px;
+    color: #F3F3F3;
+    background-color: #ddd;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+.my-section input[type="submit"]{
+    width: 162px;
+    height: 40px;
+    font-family: 'Work Sans';
+    font-size: 18px;
+    padding-left: 0px;
+    color: #F3F3F3;
+    background-color: #485848;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
+
+
 .contact{
     margin: 0 auto;
     width:1140px;
