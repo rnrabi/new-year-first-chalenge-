@@ -43,10 +43,11 @@
 }
 .main-section{
     display: flex;
+    padding-top: 100px;
 }
 .section-content{
     width:400px;
-    padding-top:350px;
+    padding-top:270px;
 }
 .section-content h2{
 
@@ -78,14 +79,33 @@
     margin:120px 0;
 }
 .section2 > h2{
-    margin-bottom: 40px;
+ margin-bottom: 40px;
+ font-family: 'Work Sans';
+font-weight: 700;
+font-size: 40px;
+color: #151414;
 }
+
 .clm-container{
     display: flex;
 }
 
 /* contace section  */
-
+.clm-container .section-clm h2{
+    font-family: 'Work Sans';
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+    color: #151414;
+}
+.clm-container .section-clm p{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
 .contact{
     margin: 0 auto;
 
@@ -117,13 +137,43 @@
     margin-left: 50px;
 }
 
+/* prblm solve korte hobe uporer ongso */
 
 
+/*footer section*/
+.ftr{
+    display:flex;
+    width:1420px;
+    height: 500px;
+    background: #151414;
+    margin-bottom: 50px;
+}
 
+.ftr .contact-us{
+    width:485px;
+    margin-left: 98px;
+    padding: 135px 0;
+}
 
+.contact-us h2{
+font-family: 'Work Sans';
+font-weight: 700;
+font-size: 45px;
+margin-bottom: 30px;
+color: #F8F8F8;
+}
 
-
-
-
-
-
+.contact-us p{
+font-family: 'Work Sans';
+font-style: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+}
+.contact-us a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-right: 17px;
+    margin-top: 20px;
+    display: inline-block;
+}
